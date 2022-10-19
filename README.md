@@ -52,7 +52,7 @@ This board requires a custom one because I re-routed most of the board after rot
 
 **Step by step:**
 1.  Download the PhobGCC software (https://github.com/PhobGCC/PhobGCC-SW/releases)
-2.  Download the JohbGCC teensy.h (https://github.com/8n1/JohbGCC/blob/main/Johb1_3Teensy4_0.h) and put it into the "teensy" folder that is included in the PhobGCC software zip file.
+2.  Download the JohbGCC teensy.h (https://github.com/8n1/JohbGCC/blob/master/Johb1_3Teensy4_0.h) and put it into the "teensy" folder that is included in the PhobGCC software zip file.
 3.  Edit the file "common/phobGCC.h" to use the added JohbGCC teensy.h by adding this line as shown in the picture below:  
 ```
 #include "../teensy/Johb1_3Teensy4_0.h"             // For JohbGCC board 1.3.x with Teensy 4.0
